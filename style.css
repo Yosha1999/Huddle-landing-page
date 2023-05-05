@@ -163,16 +163,17 @@ footer p{
     align-items: center;
 }
 
-.copyright{
-    float: right;
-    font-size: 12px;
-}
-
 .me{
     text-align: center;
     margin: 3rem auto -2rem;
     font-size: 12px;
 }
+
+.copyright{
+    float: right;
+    font-size: 12px;
+}
+
 
 @media (max-width: 1024px) {
     .header-flex{
