@@ -168,8 +168,13 @@ footer p{
     font-size: 12px;
 }
 
+.me{
+    text-align: center;
+    margin: 3rem auto -2rem;
+    font-size: 12px;
+}
 
-@media (max-width: 964px) {
+@media (max-width: 1024px) {
     .header-flex{
         flex-direction: column;
         text-align: center;
@@ -179,7 +184,10 @@ footer p{
         padding: 0;
         margin-bottom: 4rem;
     }
+}
 
+
+@media (max-width: 964px) {
     .flex-container{
         margin-top: 3rem;
     }
